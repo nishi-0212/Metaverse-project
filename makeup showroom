@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,25 +7,39 @@
     <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
 </head>
 <body>
+    <a-assets>
+        <img id = "lakme" src="Lakme.jpg"></img>
+    </a-assets>
+    
     <!-- A-Frame Scene -->
     <a-scene>
         <!-- Ground -->
         <a-plane position="0 0 0" width="100" height="100" rotation="-90 0 0" color="#39341E"></a-plane>
 
         <!--ceiling-->
-        <a-box position="0 27.334 0" width="100" height="100" rotation="-90 0 0" color="#BAB28F"></a-box>
+        <a-box position="0 39.619 0" width="100" height="100" rotation="-90 0 0" color="#BAB28F"></a-box>
         
         <!-- Walls -->
         <a-box position="0 20.025 -49.614" width="100" height="6" depth="1" scale="1 6.76 1" color="#F1DB76"></a-box>
         <a-box position="34.024 20.025 50" width="100" height="6" depth="1" scale="0.328 6.76 1" color="#F1DB76"></a-box>
         <a-box position="-34.024 20.025 50" width="100" height="6" depth="1" scale="0.328 6.76 1" color="#F1DB76"></a-box>
-        <a-box position="-50 20.025 0 "width="1" height="6" depth="100" scale="1 6.76 1" color="#F1DB76"></a-box></a-box>
+        <a-box position="-50 20.025 0" width="1" height="6" depth="100" scale="1 6.76 1" color="#F1DB76"></a-box>        ></a-box>
         <a-box position="50 20.025 0" width="1" height="6" depth="100" scale="1 6.76 1" color="#F1DB76"></a-box>
         
+        <!--board-->
+        <a-box position="0 37.389 50.659" width="100" height="6" depth="1" scale="0.2 1 1" color="#ccc" material="src : #lakme"></a-box>
+        <a-box position="0 37.389 50.050" width="100" height="6" depth="1" scale="1 1 1" color="#ccc"></a-box>
+
+        <!--rooms-->
+        <a-box position="-110.99 11.662 -33.027" rotation="0 90 0" scale="0.837 3.964 1" width="1" height="6" depth="100"></a-box>
+        <a-box position="-78.451 24.093 -33.027" rotation="90 0 0" scale="0.668 13.897 1"></a-box>
+        <a-box position="-45.583 11.662 -33.027" rotation="0 90 0" scale="0.837 3.964 1" width="1" height="6" depth="100"></a-box>
+        <a-box position="45.583 11.662 -33.027" rotation="0 90 0" scale="0.837 3.964 1" width="1" height="6" depth="100"></a-box>
+        <a-box position="78.451 24.093 -33.027" rotation="90 0 0" scale="0.668 13.897 1" ></a-box>
+        <a-box position="110.99 11.662 -33.027" rotation="0 90 0" scale="0.837 3.964 1" width="1" height="6" depth="100"></a-box>
 
         <!-- Camera -->
         <a-entity camera position="0 5 30" look-controls></a-entity>
     </a-scene>
 </body>
 </html>
-
