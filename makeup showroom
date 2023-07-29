@@ -26,10 +26,24 @@
         <a-box position="-50 20.025 0" width="1" height="6" depth="100" scale="1 6.76 1" color="#F1DB76"></a-box>        ></a-box>
         <a-box position="50 20.025 0" width="1" height="6" depth="100" scale="1 6.76 1" color="#F1DB76"></a-box>
 
-       <!-- Tables -->
+
+      
+        <!-- Tables -->
         <a-box position="-0.017 1.381 -2.00" width="1.8" height="0.1" depth="2" color="brown"></a-box>
         <a-box position="-0.011 0.365 -2.00" width="1.8" height="2" depth="2" color="white"></a-box>
-        
+
+         <!--almirah-->
+        <a-box position="47.506 9.801 -19.830" width="5.00" height="1.00" depth="27.00" color="#ead7d7"></a-box>
+        <a-box position="47.481 4.108 -19.670" width="5.00" height="1.00" depth="27.00" color="#ead7d7"></a-box>
+        <a-box position="47.523 6.955 -6.366" width="5.00" height="6.730" depth="0.450" color="#ead7d7"></a-box>
+        <a-box position="45.520 7.057 -32.209" width="1.00" height="5.00" depth="0.450" color="#ead7d7"></a-box>
+        <a-box position="45.457 6.987 -6.716" width="1.00" height="5.00" depth="0.450" color="#ead7d7"></a-box>
+        <a-box position="45.444 6.947 -14.936" width="1.00" height="5.00" depth="0.450" color="#ead7d7"></a-box>
+        <a-box position="45.451 6.875 -22.748" width="1.00" height="5.00" depth="0.450" color="#ead7d7"></a-box>
+        <a-box position="45.489 7.101 -27.498" width="1.00" height="5.00" depth="9.00" color="#f3a0a0"></a-box>
+        <a-box position="45.443 6.907 -10.884" width="1.00" height="5.00" depth="8.00" color="#f3a0a0"></a-box>
+        <a-box position="45.486 6.894 -18.791" width="1.00" height="5.00" depth="8.00" color="#f3a0a0"></a-box>
+
         <!-----some objects on the table----->
         <a-box position="0.400 1.416 -1.800" width="0.2" height="0.2" depth="0.2" color="red"></a-box>
         <a-box position="0.400 1.452 -1.800" width="0.3" height="0.1" depth="0.15" color="blue"></a-box>
