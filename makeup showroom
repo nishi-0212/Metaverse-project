@@ -32,7 +32,7 @@
         <a-box position="-0.017 1.381 -2.00" width="1.8" height="0.1" depth="2" color="brown"></a-box>
         <a-box position="-0.011 0.365 -2.00" width="1.8" height="2" depth="2" color="white"></a-box>
 
-         <!--almirah-->
+         <!--almirah-1-->
         <a-box position="47.506 9.801 -19.830" width="5.00" height="1.00" depth="27.00" color="#ead7d7"></a-box>
         <a-box position="47.481 4.108 -19.670" width="5.00" height="1.00" depth="27.00" color="#ead7d7"></a-box>
         <a-box position="47.523 6.955 -6.366" width="5.00" height="6.730" depth="0.450" color="#ead7d7"></a-box>
@@ -43,6 +43,17 @@
         <a-box position="45.489 7.101 -27.498" width="1.00" height="5.00" depth="9.00" color="#f3a0a0"></a-box>
         <a-box position="45.443 6.907 -10.884" width="1.00" height="5.00" depth="8.00" color="#f3a0a0"></a-box>
         <a-box position="45.486 6.894 -18.791" width="1.00" height="5.00" depth="8.00" color="#f3a0a0"></a-box>
+
+        <!--almirah-2-->
+        <a-box position="47.005 9.826 12.527" width="5.00" height="1.00" depth="27" color="#ead7d7"></a-box>
+        <a-box position="46.965 3.968 12.424" width="5.00" height="1.00" depth="27" color="#ead7d7"></a-box>
+        <a-box position="46.982 6.823 25.891" width="5.00" height="6.730" depth="0.450" color="#ead7d7"></a-box>
+        <a-box position="47.029 6.979 -1.179" width="5.00" height="6.730" depth="0.450" color="#ead7d7"></a-box>
+        <a-box position="44.990 6.916 7.359" width="1.00" height="5.00" depth="0.450" color="#ead7d7"></a-box>
+        <a-box position="44.973 6.945 15.787" width="1.00" height="5.00" depth="0.450" color="#ead7d7"></a-box>
+        <a-box position="44.983 6.821 3.105" width="1.00" height="5.00" depth="8.00" color="#f3a0a0"></a-box>
+        <a-box position="44.980 6.826 11.574" width="1.00" height="5.00" depth="8.00" color="#f3a0a0"></a-box>
+        <a-box position="45.002 6.850 21.003" width="1.00" height="5.00" depth="10.00" color="#f3a0a0"></a-box>
 
         <!-----some objects on the table----->
         <a-box position="0.400 1.416 -1.800" width="0.2" height="0.2" depth="0.2" color="red"></a-box>
