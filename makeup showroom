@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -13,7 +13,7 @@
     
     <!-- A-Frame Scene -->
     <a-scene>
-       <!-- Ground -->
+        <!-- Ground -->
         <a-plane position="0 0 0" scale="2.239 1.485  4.563" width="100" height="100" rotation="-90 0 0" color="#39341E"></a-plane>
 
         <!--ceiling-->
@@ -22,44 +22,40 @@
         <!-- Walls -->
         <a-box position="0 20.025 -73.363" width="100" height="6" depth="1" scale="2.239 6.76 1" color="#F1DB76"></a-box>
         <a-box position="77.368 20.025 73.255" width="100" height="6" depth="1" scale="0.684 6.76 1" color="#F1DB76"></a-box>
-        <a-box position="-77.368 20.025 74.957" width="100" height="6" depth="1" scale="0.684 6.76 1" color="#F1DB76"></a-box>
+        <a-box position="-77.368 20.025 73.658" width="100" height="6" depth="1" scale="0.684 6.76 1" color="#F1DB76"></a-box>
         <a-box position="-111.32 20.025 0" width="1" height="6" depth="100" scale="1 6.76 1.485" color="#F1DB76"></a-box>
         <a-box position="111.32 20.025 0" width="1" height="6" depth="100" scale="1 6.76 1.485" color="#F1DB76"></a-box>
         
-        <!-- Tables -->
-        <a-box position="-0.017 1.381 -2.00" width="1.8" height="0.1" depth="2" color="brown"></a-box>
-        <a-box position="-0.011 0.365 -2.00" width="1.8" height="2" depth="2" color="white"></a-box>
+        <!-- Table -->
+        <a-gltf-model id="table" scale="0.393 0.197 0.504" position="0 0 -31.542" src="table.glb"></a-gltf-model>
+        <a-gltf-model id="vase" scale="0.393 0.197 0.504" position="0 7 -31.542" src=""></a-gltf-model>
 
         <!--almirah-1-->
-        <a-box position="47.506 9.801 -19.830" width="5.00" height="1.00" depth="27.00" color="#ead7d7"></a-box>
-        <a-box position="47.481 4.108 -19.670" width="5.00" height="1.00" depth="27.00" color="#ead7d7"></a-box>
-        <a-box position="47.523 6.955 -6.366" width="5.00" height="6.730" depth="0.450" color="#ead7d7"></a-box>
-        <a-box position="45.520 7.057 -32.209" width="1.00" height="5.00" depth="0.450" color="#ead7d7"></a-box>
-        <a-box position="45.457 6.987 -6.716" width="1.00" height="5.00" depth="0.450" color="#ead7d7"></a-box>
-        <a-box position="45.444 6.947 -14.936" width="1.00" height="5.00" depth="0.450" color="#ead7d7"></a-box>
-        <a-box position="45.451 6.875 -22.748" width="1.00" height="5.00" depth="0.450" color="#ead7d7"></a-box>
-        <a-box position="45.489 7.101 -27.498" width="1.00" height="5.00" depth="9.00" color="#f3a0a0"></a-box>
-        <a-box position="45.443 6.907 -10.884" width="1.00" height="5.00" depth="8.00" color="#f3a0a0"></a-box>
-        <a-box position="45.486 6.894 -18.791" width="1.00" height="5.00" depth="8.00" color="#f3a0a0"></a-box>
-
+        <a-box position="109.357 9.801 -19.670" width="5.00" height="1.00" depth="27.00" color="#ead7d7"></a-box>
+        <a-box position="109.357 4.108 -19.670" width="5.00" height="1.00" depth="27.00" color="#ead7d7"></a-box>
+        <a-box position="109.357 6.955 -6.366" width="5.00" height="6.730" depth="0.450" color="#ead7d7"></a-box>
+        <a-box position="106.497 7.057 -32.209" width="1.00" height="5.00" depth="0.450" color="#ead7d7"></a-box>
+        <a-box position="106.497 6.987 -6.716" width="1.00" height="5.00" depth="0.450" color="#ead7d7"></a-box>
+        <a-box position="106.497 6.947 -14.936" width="1.00" height="5.00" depth="0.450" color="#ead7d7"></a-box>
+        <a-box position="106.497 6.875 -22.748" width="1.00" height="5.00" depth="0.450" color="#ead7d7"></a-box>
+        <a-box position="107.035 7.101 -27.498" width="1.00" height="5.00" depth="9.00" color="#f3a0a0"></a-box>
+        <a-box position="107.035 6.907 -10.884" width="1.00" height="5.00" depth="8.00" color="#f3a0a0"></a-box>
+        <a-box position="107.035 6.894 -18.791" width="1.00" height="5.00" depth="8.00" color="#f3a0a0"></a-box>
+ 
         <!--almirah-2-->
-        <a-box position="47.005 9.826 12.527" width="5.00" height="1.00" depth="27" color="#ead7d7"></a-box>
-        <a-box position="46.965 3.968 12.424" width="5.00" height="1.00" depth="27" color="#ead7d7"></a-box>
-        <a-box position="46.982 6.823 25.891" width="5.00" height="6.730" depth="0.450" color="#ead7d7"></a-box>
-        <a-box position="47.029 6.979 -1.179" width="5.00" height="6.730" depth="0.450" color="#ead7d7"></a-box>
-        <a-box position="44.990 6.916 7.359" width="1.00" height="5.00" depth="0.450" color="#ead7d7"></a-box>
-        <a-box position="44.973 6.945 15.787" width="1.00" height="5.00" depth="0.450" color="#ead7d7"></a-box>
-        <a-box position="44.983 6.821 3.105" width="1.00" height="5.00" depth="8.00" color="#f3a0a0"></a-box>
-        <a-box position="44.980 6.826 11.574" width="1.00" height="5.00" depth="8.00" color="#f3a0a0"></a-box>
-        <a-box position="45.002 6.850 21.003" width="1.00" height="5.00" depth="10.00" color="#f3a0a0"></a-box>
-
-        <!-----some objects on the table----->
-        <a-box position="0.400 1.416 -1.800" width="0.2" height="0.2" depth="0.2" color="red"></a-box>
-        <a-box position="0.400 1.452 -1.800" width="0.3" height="0.1" depth="0.15" color="blue"></a-box>
+        <a-box position="-47.642 9.691 -21.923" width="5.00" height="1.00" depth="27" color="#ead7d7"></a-box>
+        <a-box position="-47.973 3.968 -21.734" width="5.00" height="1.00" depth="27" color="#ead7d7"></a-box>
+        <a-box position="-47.912 6.823 -8.344" width="5.00" height="6.730" depth="0.450" color="#ead7d7"></a-box>
+        <a-box position="-47.909 6.830 -35.404" width="5.00" height="6.730" depth="0.450" color="#ead7d7"></a-box>
+        <a-box position="-50.030 6.916 -16.894" width="1.00" height="5.00" depth="0.450" color="#ead7d7"></a-box>
+        <a-box position="-49.966 6.945 -26.944" width="1.00" height="5.00" depth="0.450" color="#ead7d7"></a-box>
+        <a-box position="-49.902 6.821 -31.225" width="1.00" height="5.00" depth="8.00" color="#f3a0a0"></a-box>
+        <a-box position="-49.868 6.826 -12.657" width="1.00" height="5.00" depth="8.00" color="#f3a0a0"></a-box>
+        <a-box position="-49.719 6.850 -21.812" width="1.00" height="5.00" depth="10.00" color="#f3a0a0"></a-box>
 
         <!--board-->
-        <a-box position="0 37.389 50.659" width="100" height="6" depth="1" scale="0.2 1 1" color="#ccc" material="src : #lakme"></a-box>
-        <a-box position="0 37.389 50.050" width="100" height="6" depth="1" scale="1 1 1" color="#ccc"></a-box>
+        <a-box position="0 37.389 74.957" width="100" height="6" depth="1" scale="0.2 1 1" color="#ccc" material="src : #lakme"></a-box>
+        <a-box position="0 37.389 73.892" width="100" height="6" depth="1" scale="1 1 1" color="#ccc"></a-box>
 
         <!--rooms-->
         <a-box position="-110.38 11.662 -31.665" rotation="0 90 0" scale="0.837 3.964 1" height="6" depth="1" width="100"></a-box>
@@ -69,8 +65,42 @@
         <a-box position="78.129 24.093 -31.665" rotation="90 0 0" scale="0.668 13.897 1" height="6" depth="1" width="100"></a-box>
         <a-box position="110.38 11.662 -31.665" rotation="0 90 0" scale="0.837 3.964 1" height="6" depth="1" width="100"></a-box>
 
+        <!--counter-->
+        <a-gltf-model id="counter" position="-73.511 0.274 48.492" scale="3 2 3" rotation="0 0 0" src="counter.glb"></a-gltf-model>
+        
+        <!--racks-->
+        <a-gltf-model id="rack1" position="-53.128 0 -46.329" scale="8 8 12" src="rack.glb"></a-gltf-model>
+        <a-gltf-model id="rack2" position="-62.271 0 -64.715" scale="8 8 12" rotation="0 90 0" src="rack.glb"></a-gltf-model>
+        <a-gltf-model id="rack3" position="-80.07 0 -64.715" scale="8 8 12" rotation="0 90 0" src="rack.glb"></a-gltf-model>
+        <a-gltf-model id="rack4" position="77 0 -64.715" scale="8 8 12" rotation="0 90 0" src="rack.glb"></a-gltf-model>
+        <a-gltf-model id="rack5" position="94.856 0 -64.715" scale="8 8 12" rotation="0 90 0" src="rack.glb"></a-gltf-model>
+        <a-gltf-model id="rack6" position="103.109 0 -46.329" scale="8 8 12" rotation="" src="rack.glb"></a-gltf-model>        
+
+        <!--chairs-->
+        <a-gltf-model id="chair1" scale="4 4 4" position="-104.24 0.274 -26.277" rotation="0 90 0" src="chair.glb"></a-gltf-model>
+        <a-gltf-model id="chair2" scale="4 4 4" position="-104.022 0.274 -7.078" rotation="0 90 0" src="chair.glb"></a-gltf-model>
+        <a-gltf-model id="chair3" scale="4 4 4" position="50.096 0.274 -10.195" rotation="0 90 0" src="chair.glb"></a-gltf-model>
+        <a-gltf-model id="chair4" scale="4 4 4" position="51.274 0.274 -29.789" rotation="0 90 0" src="chair.glb"></a-gltf-model>
+
+        <a-gltf-model id="chair" scale="5 5 5" position="99.061 0 56.258" rotation="0 90 0" src="waitingchair.glb"></a-gltf-model>
+
+        <!--main doors-->
+        <a-gltf-model id="main door" position="-1.428 0 75.263" scale="16 5.5 6" rotation="" src="door.glb"></a-gltf-model>
+
+        <!--room doors-->
+        <a-gltf-model id="door1" position="-110.596 8.727 9.775" scale="9 1.4 2" rotation="0 180 0" src="glassd.glb"></a-gltf-model>
+        <a-gltf-model id="door1" position="110.596 8.727 9.775" scale="9 1.4 2" src="glassd.glb"></a-gltf-model>
+
+        <!--cash register-->
+        
+
         <!-- Camera -->
-        <a-entity camera position="0 5 30" look-controls></a-entity>
+        <a-entity id="rig" position="0 3.0 -30" rotation="0 180 0">
+            <a-camera id="camera"></a-camera>
+        </a-entity>
+
+        <!--Camera
+         a-entity camera position="0 5 30" look-controls></a-entity>-->
     </a-scene>
 </body>
 </html>
