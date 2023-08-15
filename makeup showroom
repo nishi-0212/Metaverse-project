@@ -9,98 +9,145 @@
 <body>
     <a-assets>
         <img id = "lakme" src="Lakme.jpg"></img>
+        <img id = "floor" src="floor_texture.jpg"></img>
+        <img id = "walls" src="wall_texture.jpg"></img>
     </a-assets>
     
     <!-- A-Frame Scene -->
     <a-scene>
         <!-- Ground -->
-        <a-plane position="0 0 0" scale="2.239 1.485  4.563" width="100" height="100" rotation="-90 0 0" color="#39341E"></a-plane>
+        <a-plane position="0 0 0" scale="1.068 1.485  4.563" width="100" height="100" rotation="-90 0 0" color="#39341E" material="src : #floor"></a-plane>
 
         <!--ceiling-->
-        <a-plane position="0 39.619 0" scale="2.239 1.485  4.563" width="100" height="100" rotation="-90 0 0" color="#BAB28F"></a-plane>
+        <a-plane position="0 40.596 0" scale="1.068 1.485  4.563" width="100" height="100" rotation="-90 0 0" color="#BAB28F"></a-plane>
         
         <!-- Walls -->
-        <a-box position="0 20.025 -73.363" width="100" height="6" depth="1" scale="2.239 6.76 1" color="#F1DB76"></a-box>
-        <a-box position="77.368 20.025 73.255" width="100" height="6" depth="1" scale="0.684 6.76 1" color="#F1DB76"></a-box>
-        <a-box position="-77.368 20.025 73.658" width="100" height="6" depth="1" scale="0.684 6.76 1" color="#F1DB76"></a-box>
-        <a-box position="-111.32 20.025 0" width="1" height="6" depth="100" scale="1 6.76 1.485" color="#F1DB76"></a-box>
-        <a-box position="111.32 20.025 0" width="1" height="6" depth="100" scale="1 6.76 1.485" color="#F1DB76"></a-box>
+        <a-box position="0 20.025 -73.363" width="100" height="6" depth="1" scale="1.068 6.76 1" color="#F1DB76" material="src : #walls"></a-box>
+        <a-box position="-19.369 20.025 73.658" width="100" height="6" depth="1" scale="0.68 6.76 1" color="#F1DB76" material="src : #walls"></a-box>
+        <a-box position="-52.707 20.025 0" width="1" height="6" depth="100" scale="1 6.76 1.485" color="#F1DB76" material="src : #walls"></a-box>
+        <a-box position="52.533 20.025 0" width="1" height="6" depth="100" scale="1 6.76 1.485" color="#F1DB76" material="src : #walls"></a-box>
         
-        <!-- Table -->
-        <a-gltf-model id="table" scale="0.393 0.197 0.504" position="0 0 -31.542" src="table.glb"></a-gltf-model>
-        <a-gltf-model id="vase" scale="0.393 0.197 0.504" position="0 7 -31.542" src=""></a-gltf-model>
-
-        <!--almirah-1-->
-        <a-box position="109.357 9.801 -19.670" width="5.00" height="1.00" depth="27.00" color="#ead7d7"></a-box>
-        <a-box position="109.357 4.108 -19.670" width="5.00" height="1.00" depth="27.00" color="#ead7d7"></a-box>
-        <a-box position="109.357 6.955 -6.366" width="5.00" height="6.730" depth="0.450" color="#ead7d7"></a-box>
-        <a-box position="106.497 7.057 -32.209" width="1.00" height="5.00" depth="0.450" color="#ead7d7"></a-box>
-        <a-box position="106.497 6.987 -6.716" width="1.00" height="5.00" depth="0.450" color="#ead7d7"></a-box>
-        <a-box position="106.497 6.947 -14.936" width="1.00" height="5.00" depth="0.450" color="#ead7d7"></a-box>
-        <a-box position="106.497 6.875 -22.748" width="1.00" height="5.00" depth="0.450" color="#ead7d7"></a-box>
-        <a-box position="107.035 7.101 -27.498" width="1.00" height="5.00" depth="9.00" color="#f3a0a0"></a-box>
-        <a-box position="107.035 6.907 -10.884" width="1.00" height="5.00" depth="8.00" color="#f3a0a0"></a-box>
-        <a-box position="107.035 6.894 -18.791" width="1.00" height="5.00" depth="8.00" color="#f3a0a0"></a-box>
- 
-        <!--almirah-2-->
-        <a-box position="-47.642 9.691 -21.923" width="5.00" height="1.00" depth="27" color="#ead7d7"></a-box>
-        <a-box position="-47.973 3.968 -21.734" width="5.00" height="1.00" depth="27" color="#ead7d7"></a-box>
-        <a-box position="-47.912 6.823 -8.344" width="5.00" height="6.730" depth="0.450" color="#ead7d7"></a-box>
-        <a-box position="-47.909 6.830 -35.404" width="5.00" height="6.730" depth="0.450" color="#ead7d7"></a-box>
-        <a-box position="-50.030 6.916 -16.894" width="1.00" height="5.00" depth="0.450" color="#ead7d7"></a-box>
-        <a-box position="-49.966 6.945 -26.944" width="1.00" height="5.00" depth="0.450" color="#ead7d7"></a-box>
-        <a-box position="-49.902 6.821 -31.225" width="1.00" height="5.00" depth="8.00" color="#f3a0a0"></a-box>
-        <a-box position="-49.868 6.826 -12.657" width="1.00" height="5.00" depth="8.00" color="#f3a0a0"></a-box>
-        <a-box position="-49.719 6.850 -21.812" width="1.00" height="5.00" depth="10.00" color="#f3a0a0"></a-box>
-
+        <!--center Table-->
+        <a-gltf-model id="center table" position="-17.634 -1.312 -22.468" scale="2 4 6" src="cen_table.glb"></a-gltf-model>
+        <a-gltf-model id="center table" position="-17.634 -1.312 -48.688" scale="2 4 6" src="cen_table.glb"></a-gltf-model>
+       
         <!--board-->
         <a-box position="0 37.389 74.957" width="100" height="6" depth="1" scale="0.2 1 1" color="#ccc" material="src : #lakme"></a-box>
-        <a-box position="0 37.389 73.892" width="100" height="6" depth="1" scale="1 1 1" color="#ccc"></a-box>
+        <a-box position="0.215 37.389 73.892" width="100" height="6" depth="1" scale="1.073 1 1" color="#ccc"></a-box>
 
-        <!--rooms-->
-        <a-box position="-110.38 11.662 -31.665" rotation="0 90 0" scale="0.837 3.964 1" height="6" depth="1" width="100"></a-box>
-        <a-box position="-78.129 24.093 -31.665" rotation="90 0 0" scale="0.668 13.897 1" height="6" depth="1" width="100"></a-box>
-        <a-box position="-45.077 11.662 -31.665" rotation="0 90 0" scale="0.837 3.964 1" height="6" depth="1" width="100"></a-box>
-        <a-box position="45.077 11.662 -31.665" rotation="0 90 0" scale="0.837 3.964 1" height="6" depth="1" width="100"></a-box>
-        <a-box position="78.129 24.093 -31.665" rotation="90 0 0" scale="0.668 13.897 1" height="6" depth="1" width="100"></a-box>
-        <a-box position="110.38 11.662 -31.665" rotation="0 90 0" scale="0.837 3.964 1" height="6" depth="1" width="100"></a-box>
+        <!--reception-->
+        <a-gltf-model id="reception" position="-32.385 4.186 58.312" scale="6 4 8" rotation="0 -90 0" src="reception.glb"></a-gltf-model>
 
-        <!--counter-->
-        <a-gltf-model id="counter" position="-73.511 0.274 48.492" scale="3 2 3" rotation="0 0 0" src="counter.glb"></a-gltf-model>
-        
+        <!--AC-->
+        <a-gltf-model id="AC" position="-32.385 20.667 70.507" scale="2 2 2" rotation="0 0 0" src="ac.glb"></a-gltf-model>
+
+        <!--side wall-->
+        <a-box position="14.438 20.025 43.196" scale="0.608 6.76 0.85" rotation="0 90 0" width="100" height="6" depth="1"></a-box>
+        <a-box position="14.438 20.025 -40.125" scale="0.673 6.76 0.5" rotation="0 90 0" width="100" height="6" depth="1"></a-box>
+
         <!--racks-->
-        <a-gltf-model id="rack1" position="-53.128 0 -46.329" scale="8 8 12" src="rack.glb"></a-gltf-model>
-        <a-gltf-model id="rack2" position="-62.271 0 -64.715" scale="8 8 12" rotation="0 90 0" src="rack.glb"></a-gltf-model>
-        <a-gltf-model id="rack3" position="-80.07 0 -64.715" scale="8 8 12" rotation="0 90 0" src="rack.glb"></a-gltf-model>
-        <a-gltf-model id="rack4" position="77 0 -64.715" scale="8 8 12" rotation="0 90 0" src="rack.glb"></a-gltf-model>
-        <a-gltf-model id="rack5" position="94.856 0 -64.715" scale="8 8 12" rotation="0 90 0" src="rack.glb"></a-gltf-model>
-        <a-gltf-model id="rack6" position="103.109 0 -46.329" scale="8 8 12" rotation="" src="rack.glb"></a-gltf-model>        
+        <a-gltf-model id="rack1" position="-45.403 0 2.126" scale="8 8 12" src="rack.glb"></a-gltf-model>
+        <a-gltf-model id="rack2" position="-45.403 0 -10.952" scale="8 8 12" src="rack.glb"></a-gltf-model>
+        <a-gltf-model id="rack3" position="-45.403 0 -23.818" scale="8 8 12" src="rack.glb"></a-gltf-model>
+        <a-gltf-model id="rack4" position="-45.403 0 -36.715" scale="8 8 12" src="rack.glb"></a-gltf-model>
+        <a-gltf-model id="rack5" position="-45.403 0 -49.452" scale="8 8 12" src="rack.glb"></a-gltf-model>
+        <a-gltf-model id="rack6" position="-0.207 0 -49.452" scale="8 8 12" src="rack.glb"></a-gltf-model>
+        <a-gltf-model id="rack7" position="-0.207 0 -36.715" scale="8 8 12" src="rack.glb"></a-gltf-model>
+        <a-gltf-model id="rack8" position="-0.207 0 -23.818" scale="8 8 12" src="rack.glb"></a-gltf-model>
+        <a-gltf-model id="rack9" position="-0.207 0 -10.952" scale="8 8 12" src="rack.glb"></a-gltf-model>             
 
-        <!--chairs-->
-        <a-gltf-model id="chair1" scale="4 4 4" position="-104.24 0.274 -26.277" rotation="0 90 0" src="chair.glb"></a-gltf-model>
-        <a-gltf-model id="chair2" scale="4 4 4" position="-104.022 0.274 -7.078" rotation="0 90 0" src="chair.glb"></a-gltf-model>
-        <a-gltf-model id="chair3" scale="4 4 4" position="50.096 0.274 -10.195" rotation="0 90 0" src="chair.glb"></a-gltf-model>
-        <a-gltf-model id="chair4" scale="4 4 4" position="51.274 0.274 -29.789" rotation="0 90 0" src="chair.glb"></a-gltf-model>
-
-        <a-gltf-model id="chair" scale="5 5 5" position="99.061 0 56.258" rotation="0 90 0" src="waitingchair.glb"></a-gltf-model>
-
-        <!--main doors-->
-        <a-gltf-model id="main door" position="-1.428 0 75.263" scale="16 5.5 6" rotation="" src="door.glb"></a-gltf-model>
-
-        <!--room doors-->
-        <a-gltf-model id="door1" position="-110.596 8.727 9.775" scale="9 1.4 2" rotation="0 180 0" src="glassd.glb"></a-gltf-model>
-        <a-gltf-model id="door1" position="110.596 8.727 9.775" scale="9 1.4 2" src="glassd.glb"></a-gltf-model>
-
-        <!--cash register-->
+        <!--plants-->
+        <a-gltf-model id="plant1" position="10.803 -1.312 61.379" scale="4 4 4" src="plant3.glb"></a-gltf-model>
+        <a-gltf-model id="plant2" position="-44.092 -1.312 42.397" scale="2 2 2" src="plant4.glb"></a-gltf-model>
         
+        <!--main doors-->
+        <a-gltf-model id="main door" position="32.815 0 75.263" scale="7 5.5 6" src="door.glb"></a-gltf-model>
+
+        <!--lipsticks-->
+        <a-gltf-model id="red lipstick1" position="-17.565 8.108 -24.723" scale="1 1 1" src="red.glb"></a-gltf-model>
+        <a-gltf-model id="lipsticks1" position="-16.630 7.452 -21.020" scale="0.35 0.35 0.35" src="lipsticks.glb"></a-gltf-model>
+        <a-gltf-model id="pink lipstick1" position="-21.169 7.378 -19.063" scale="1.5 1.5 1.5" src="pink.glb"></a-gltf-model>
+        <a-gltf-model id="red lipstick2" position="-18.643 8.108 -23.369" scale="1 1 1" src="red.glb"></a-gltf-model>
+        <a-gltf-model id="lipsticks2" position="-22.056 7.452 -21.138" scale="0.35 0.35 0.35" src="lipsticks.glb"></a-gltf-model>
+        <a-gltf-model id="pink lipstick2" position="-19.326 7.378 -19.945" scale="1.5 1.5 1.5" src="pink.glb"></a-gltf-model>
+
+        <!--perfumes-->
+        <a-gltf-model id="perfume1" position="-19.730 7.532 -48.247" scale="1.5 1.5 1.5" rotation="0 -90 0" src="perfume1.glb"></a-gltf-model>
+        <a-gltf-model id="perfume 1i" position="-20.030 7.532 -52.524" scale="1.5 1.5 1.5" rotation="0 -90 0" src="perfume1.glb"></a-gltf-model>
+        <a-gltf-model id="perfume 1ii" position="-21.505 7.532 -50.266" scale="1.5 1.5 1.5" rotation="0 -90 0" src="perfume1.glb"></a-gltf-model>
+        <a-gltf-model id="perfume 1iii" position="-20.030 7.532 -52.524" scale="1.5 1.5 1.5" rotation="0 -90 0" src="perfume1.glb"></a-gltf-model>
+        <a-gltf-model id="perfume 1iv" position="-20.030 7.532 -52.524" scale="1.5 1.5 1.5" rotation="0 -90 0" src="perfume1.glb"></a-gltf-model>
+        <a-gltf-model id="perfume 1v" position="-20.030 7.532 -52.524" scale="1.5 1.5 1.5" rotation="0 -90 0" src="perfume1.glb"></a-gltf-model>
+        <a-gltf-model id="perfume 1vi" position="-20.030 7.532 -52.524" scale="1.5 1.5 1.5" rotation="0 -90 0" src="perfume1.glb"></a-gltf-model>
+
+        <a-gltf-model id="perfume2" position="-19.306 7.79 -56.46" scale="0.5 0.5 0.5" src="perfume2.glb"></a-gltf-model>
+        <a-gltf-model id="perfume 2i" position="-21.121 7.929 -55.092" scale="0.5 0.5 0.5" src="perfume2.glb"></a-gltf-model>
+        <a-gltf-model id="perfume 2ii" position="-22.722 7.752 -56.630" scale="0.5 0.5 0.5" src="perfume2.glb"></a-gltf-model>
+        <a-gltf-model id="perfume 2iii" position="-21.121 7.929 -55.092" scale="0.5 0.5 0.5" src="perfume2.glb"></a-gltf-model>
+        <a-gltf-model id="perfume 2iv" position="-21.121 7.929 -55.092" scale="0.5 0.5 0.5" src="perfume2.glb"></a-gltf-model>
+        <a-gltf-model id="perfume 2v" position="-21.121 7.929 -55.092" scale="0.5 0.5 0.5" src="perfume2.glb"></a-gltf-model>
+        <a-gltf-model id="perfume 2vi" position="-21.121 7.929 -55.092" scale="0.5 0.5 0.5" src="perfume2.glb"></a-gltf-model>
+
+        <a-gltf-model id="perfume3" position="-20.910 7.383 -45.614" scale="1.5 1.5 1.5" src="perfume3.glb"></a-gltf-model>
+        <a-gltf-model id="perfume 3i" position="-18.97 7.383 -43.23" scale="1.5 1.5 1.5" src="perfume3.glb"></a-gltf-model>
+        <a-gltf-model id="perfume 3ii" position="-21.425 7.383 -41.891 6" scale="1.5 1.5 1.5" src="perfume3.glb"></a-gltf-model>
+        <a-gltf-model id="perfume 3iii" position="-18.97 7.383 -43.23" scale="1.5 1.5 1.5" src="perfume3.glb"></a-gltf-model>
+        <a-gltf-model id="perfume 3iv" position="-18.97 7.383 -43.23" scale="1.5 1.5 1.5" src="perfume3.glb"></a-gltf-model>
+        <a-gltf-model id="perfume 3v" position="-18.97 7.383 -43.23" scale="1.5 1.5 1.5" src="perfume3.glb"></a-gltf-model>
+        <a-gltf-model id="perfume 3vi" position="-18.97 7.383 -43.23" scale="1.5 1.5 1.5" src="perfume3.glb"></a-gltf-model>
+        
+        <!--foundation-->
+        <a-gltf-model id="foundation 1" position="-14.701 7.687 -54.396" scale="1 1 1" rotation="0 90 0" src="foundation.glb"></a-gltf-model>
+        <a-gltf-model id="foundation 1i" position="-14.703 7.687 -54.396" scale="1 1 1" rotation="0 90 0" src="foundation.glb"></a-gltf-model>
+        <a-gltf-model id="foundation 1ii" position="-14.703 7.687 -54.396" scale="0.75 0.75 0.75" rotation="0 90 0" src="foundation.glb"></a-gltf-model>
+        <a-gltf-model id="foundation 1iii" position="-14.703 7.687 -54.396" scale="0.75 0.75 0.75" rotation="0 90 0" src="foundation.glb"></a-gltf-model>
+        <a-gltf-model id="foundation 1iv" position="-14.703 7.687 -54.396" scale="0.75 0.75 0.75" rotation="0 90 0" src="foundation.glb"></a-gltf-model>
+        <a-gltf-model id="foundation 1v" position="-14.703 7.687 -54.396" scale="0.75 0.75 0.75" rotation="0 90 0" src="foundation.glb"></a-gltf-model>
+        
+        <!--creme-->
+        <a-gltf-model id="creme 1" position="-15.072 9.28 -44.129" scale="0.5 0.5 0.5" rotation="0 -90 0" src="creme_tube.glb"></a-gltf-model>
+        <a-gltf-model id="creme 1i" position="-15.072 9.28 -46.499" scale="0.5 0.5 0.5" rotation="0 -90 0" src="creme_tube.glb"></a-gltf-model>
+        <a-gltf-model id="creme 1ii" position="-15.072 9.28 -46.499" scale="0.5 0.5 0.5" rotation="0 90 0" src="creme_tube.glb"></a-gltf-model>
+        <a-gltf-model id="creme 1iii" position="-15.072 9.28 -46.499" scale="0.5 0.5 0.5" rotation="0 90 0" src="creme_tube.glb"></a-gltf-model>
+        <a-gltf-model id="creme 1iv" position="-15.072 9.28 -46.499" scale="0.5 0.5 0.5" rotation="0 -90 0" src="creme_tube.glb"></a-gltf-model>
+        <a-gltf-model id="creme 1v" position="-15.072 9.28 -46.499" scale="0.5 0.5 0.5" rotation="0 -90 0" src="creme_tube.glb"></a-gltf-model>
+        
+        <a-gltf-model id="cc creme1" position="-13 9.28 -46" scale="1 1 1" src="cc_creme.glb"></a-gltf-model>
+        <a-gltf-model id="cc creme2" position="-13 9.28 -46" scale="1 1 1" src="cc_creme.glb"></a-gltf-model>
+        <a-gltf-model id="cc creme1" position="-13 9.28 -46" scale="1 1 1" src="cc_creme.glb"></a-gltf-model>
+        <a-gltf-model id="cc creme1" position="-13 9.28 -46" scale="1 1 1" src="cc_creme.glb"></a-gltf-model>
+
+        <a-gltf-model id="set" position="-13 9.28 -46" scale="1 1 1" src="cc_creme.glb"></a-gltf-model>
+        <a-gltf-model id="set" position="-13 9.28 -46" scale="1 1 1" src="cc_creme.glb"></a-gltf-model>
+        <a-gltf-model id="set" position="-13 9.28 -46" scale="1 1 1" src="cc_creme.glb"></a-gltf-model>
+        <a-gltf-model id="set" position="-13 9.28 -46" scale="1 1 1" src="cc_creme.glb"></a-gltf-model>  
+
+        <!--lotion-->
+        <a-gltf-model id="lotion1" position="-13 9.28 -46" scale="1 1 1" src="lotion1.glb"></a-gltf-model>
+        <a-gltf-model id="lotion 1i" position="-13 9.28 -46" scale="1 1 1" src="lotion1.glb"></a-gltf-model>
+        <a-gltf-model id="lotion 1ii" position="-13 9.28 -46" scale="1 1 1" src="lotion1.glb"></a-gltf-model>
+        <a-gltf-model id="lotion2" position="-13 9.28 -46" scale="1 1 1" src="lotion2.glb"></a-gltf-model>
+        <a-gltf-model id="lotion 2i" position="-13 9.28 -46" scale="1 1 1" src="lotion2.glb"></a-gltf-model>
+        <a-gltf-model id="lotion 2ii" position="-13 9.28 -46" scale="1 1 1" src="lotion2.glb"></a-gltf-model>
+        <a-gltf-model id="lotion3" position="-13 9.28 -46" scale="1 1 1" src="lotion3.glb"></a-gltf-model>
+        <a-gltf-model id="lotion 3i" position="-13 9.28 -46" scale="1 1 1" src="lotion3.glb"></a-gltf-model>
+        <a-gltf-model id="lotion 3ii" position="-13 9.28 -46" scale="1 1 1" src="lotion3.glb"></a-gltf-model>
+        <a-gltf-model id="lotion4" position="-13 9.28 -46" scale="1 1 1" src="lotion4.glb"></a-gltf-model>
+        <a-gltf-model id="lotion 4i" position="-13 9.28 -46" scale="1 1 1" src="lotion4.glb"></a-gltf-model>
+        <a-gltf-model id="lotion 4i" position="-13 9.28 -46" scale="1 1 1" src="lotion4.glb"></a-gltf-model>
+        
+        <a-gltf-model id="set" position="-13 9.28 -46" scale="1 1 1" src="creme_set.glb"></a-gltf-model>
+        <a-gltf-model id="set" position="-13 9.28 -46" scale="1 1 1" src="creme_set.glb"></a-gltf-model>
+        <a-gltf-model id="set" position="-13 9.28 -46" scale="1 1 1" src="creme_set.glb"></a-gltf-model>
+        <a-gltf-model id="set" position="-13 9.28 -46" scale="1 1 1" src="creme_set.glb"></a-gltf-model>
+
+        <!--mirror-->
+        <a-gltf-model id="mirror" position="-15.703 9.191 -20.349" scale="1.5 1.5 1.5" rotation="0 -90 0" src="roundm.glb"></a-gltf-model>
 
         <!-- Camera -->
-        <a-entity id="rig" position="0 3.0 -30" rotation="0 180 0">
+        <a-entity id="rig" position="0 7.7556 124.538" rotation="0 0 0">
             <a-camera id="camera"></a-camera>
         </a-entity>
-
-        <!--Camera
-         a-entity camera position="0 5 30" look-controls></a-entity>-->
     </a-scene>
 </body>
 </html>
