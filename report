@@ -10,11 +10,11 @@
      
       <a-scene>
   <a-assets>
-    <video id="penguin-sledding" autoplay loop="true" src="https://cdn.glitch.global/6c0c5655-537b-49dd-be63-d08e43ae2d69/VID20230710152245.mp4?v=1692029795253"></video>
+    <video id="penguin-sledding" autoplay loop="true" src="https://cdn.glitch.global/6247a95f-183f-4589-bca8-2c11777ffcd8/VID-20230814-WA0026.mp4?v=1692090791089"></video>
   </a-assets>
 
   <!-- Using the asset management system. -->
-  <a-video src="#penguin-sledding" width="16" height="9" position="4.632 5.296 0.108 " rotation="0 90 0"></a-video>
+  <a-video src="#penguin-sledding" width="16" height="9" position="4.632 5.296 5.939  " rotation="0 -90 0"></a-video>
 
   <!-- Defining the URL inline. Not recommended but more comfortable for web developers. -->
   <a-video src=" [object HTMLVideoElement]"></a-video>
