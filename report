@@ -164,7 +164,7 @@
     </a-assets>
   
     <!-- Using the asset management system. -->
-    <a-image src="#my-d"  width="8" height="15" position="-18.095 5.707 2.666" rotation="0 -180 0"></a-image>
+    <a-image src="#my-d"  width="8" height="15" position=" -18.095 5.707 2.392" rotation="0 -180 0"></a-image>
         
 </a-scene>
     
