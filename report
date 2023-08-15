@@ -17,7 +17,7 @@
   <a-video src="#penguin-sledding" width="16" height="9" position="4.632 5.296 5.939  " rotation="0 -90 0"></a-video>
 
   <!-- Defining the URL inline. Not recommended but more comfortable for web developers. -->
-  <a-video src=" airbending.mp4"></a-video>
+  <a-video src="airbending.mp4"></a-video>
         
         
         <!-- Ground -->
@@ -53,11 +53,11 @@
       </a-assets>
 
       <a-entity mixin="boldFont" text-geometry="value: T E A M -M E M B E R S"  position="-22.259 6.002 -2.868" rotation="3.530 -1.432 -0.159" scale="1  2 2" size="0.7"></a-entity>
-    <a-entity mixin="boldFont" text-geometry="value: TECH TURTLE"  position="-25.340 4.001 5.948" rotation="5.050 -93.828 0" scale="1  2 2" size="0.7"></a-entity>
-    <a-entity mixin="boldFont" text-geometry="value: TEAM NAME :-"  position="-25.149 8.221 5.857" rotation="5.050 -93.828 0" scale="1  2 2" size="0.7"></a-entity>
-    <a-entity mixin="boldFont" text-geometry="value: MAKEUP SHOWROOM"  position="-25.349 2.815 -13.691" rotation="5.050 -93.828 0" scale="1  2 2" size="0.7"></a-entity>
-    <a-entity mixin="boldFont" text-geometry="value: PROJECT NAME :-"  position="-25.165 5.267 -12.560" rotation="5.050 -93.828 0" scale="1  2 2" size="0.7"></a-entity>
-    <a-entity mixin="boldFont" text-geometry="value: PROJECT REPORT"  position="-25.061 8.300 -12.350" rotation="5.050 -93.828 0" scale="1  2 2" size="0.7"></a-entity>
+    <a-entity mixin="boldFont" text-geometry="value: TECH TURTLE"  position="-25.340 -3.529 5.948" rotation="5.050 -93.828 0" scale="1  2 2" size="0.7"></a-entity>
+    <a-entity mixin="boldFont" text-geometry="value: TEAM NAME :-"  position="-25.149 -0.861 5.857" rotation="5.050 -93.828 0" scale="1  2 2" size="0.7"></a-entity>
+    <a-entity mixin="boldFont" text-geometry="value: MAKEUP SHOWROOM"  position="-25.349 8.294 -13.691" rotation="5.050 -93.828 0" scale="1  2 2" size="0.7"></a-entity>
+    <a-entity mixin="boldFont" text-geometry="value: PROJECT NAME :-"  position="-25.165 10.902 -12.560" rotation="5.050 -93.828 0" scale="1  2 2" size="0.7"></a-entity>
+    <a-entity mixin="boldFont" text-geometry="value: PROJECT REPORT"  position="-25.061 13.480 -12.350" rotation="5.050 -93.828 0" scale="1  2 2" size="0.7"></a-entity>
     <a-entity mixin="boldFont" text-geometry="value: NAME : AKSA"  position="  -24.079 -1.028 -7.278" rotation="0 90 0" scale="1  2 2" size="0.7"></a-entity>
          <a-entity mixin="boldFont" text-geometry="value: BARNCH : CSE"  position="  -24.428 -3.970 -6.439 " rotation="0 90 0" scale="1  2 2" size="0.7"></a-entity>  
          <a-entity mixin="boldFont" text-geometry="value: NAME : NISHI"  position="  -13.752 -1.492 -3.201  " rotation="0 180 0" scale="1  2 2" size="0.7"></a-entity> 
@@ -67,16 +67,16 @@
         <a-entity mixin="boldFont" text-geometry="value: NAME : SNIGDHA"  position="-19.030 -1.437 -14.880 " rotation="3.530 -1.432 -0.159" scale="1  2 2" size="0.7"></a-entity>
         <a-entity mixin="boldFont" text-geometry="value: BRANCH : ECE-AI"  position="-18.451 -3.831 -14.880" rotation="3.530 -1.432 -0.159" scale="1  2 2" size="0.7"></a-entity>
     
-        <a-plane color="#1d1b1b" rotation="0 90 0" width="12" height="2" position= "-25.146 8.795 -8.973"  side="double"></a-plane>
+        <a-plane color="#1d1b1b" rotation="0 90 0" width="12" height="2" position= "-25.146 14.092 -8.973"  side="double"></a-plane>
     <a-plane color="#1d1b1b" rotation="0 0 0" width="12" height="2" position= "-17.467 6.387 -2.892"  side="double"></a-plane>
        
-    <a-plane color="#1d1b1b" rotation="0 90 0" width="12" height="2" position= "-25.011 4.278 8.901"  side="double"></a-plane>
+    <a-plane color="#1d1b1b" rotation="0 90 0" width="12" height="2" position= "-25.011 -0.699 8.901"  side="double"></a-plane>
        
-    <a-plane color="#1d1b1b" rotation="0 90 0" width="12" height="2" position= "-25.201 8.445 8.837"  side="double"></a-plane>
+    <a-plane color="#1d1b1b" rotation="0 90 0" width="12" height="2" position= "-25.201 -3.148 8.837"  side="double"></a-plane>
        
-    <a-plane color="#1d1b1b" rotation="0 90 0" width="12" height="2" position= "-25..039 5.998 -9.000"  side="double"></a-plane>
+    <a-plane color="#1d1b1b" rotation="0 90 0" width="12" height="2" position= "-25.000 11.579 -9.000"  side="double"></a-plane>
        
-    <a-plane color="#1d1b1b" rotation="0 90 0" width="12" height="2" position= "-25.004 2.838 -9.059"  side="double"></a-plane>
+    <a-plane color="#1d1b1b" rotation="0 90 0" width="12" height="2" position= "-25.004 8.956 -9.059"  side="double"></a-plane>
           <a-plane color="#1d1b1b" rotation="0 90 0" width="11.8" height="2" position= "-24.593 -3.281 -9.051  "  side="double"></a-plane>
            <a-plane color="#1d1b1b" rotation="0 90 0" width="11.8" height="2" position= "-24.593 -1.020 -9.051  "  side="double"></a-plane>
         
@@ -126,21 +126,46 @@
   
     <!-- Using the asset management system. -->
     <a-image src="#my-im"  width="8" height="15" position="-7.672 7.608 -8.754 " rotation="0 90 0"></a-image>
-
-   <a-assets>
+        
+            <a-assets>
       <img id="my-i" src="https://cdn.glitch.global/e8e4b4f2-0865-4837-bbd0-f073c72d6f97/REPORT.png?v=1692084964543"/>
     </a-assets>
   
     <!-- Using the asset management system. -->
-    <a-image src="#my-i"  width="12" height="13" position="4.510 5.072 -8.435 " rotation="0.019 -90.330 -0.357 "></a-image>
+    <a-image src="#my-i"  width="12" height="13" position="-6.930 5.082 8.837 " rotation="0.019 -90.330 -0.357 "></a-image>
+        
+            <a-assets>
+      <img id="my-m" src="https://cdn.glitch.global/6247a95f-183f-4589-bca8-2c11777ffcd8/introduction.png?v=1692093150029 "/>
+    </a-assets>
   
+    <!-- Using the asset management system. -->
+    <a-image src="#my-m"  width="12" height="13" position="4.053 5.072 -8.435  " rotation="0.019 -90.330 -0.357 "></a-image>
+        
         <a-assets>
-      <img id="my-L" src="https://cdn.glitch.global/6247a95f-183f-4589-bca8-2c11777ffcd8/89.png?v=1692096296062  "/>
+      <img id="my-L" src=" https://cdn.glitch.global/6247a95f-183f-4589-bca8-2c11777ffcd8/89.png?v=1692096296062  "/>
     </a-assets>
   
     <!-- Using the asset management system. -->
     <a-image src="#my-L"  width="12" height="13" position="-25.056 8.688 8.926   " rotation="0.019 -90.330 -0.357 "></a-image>
-</a-scene>
+         <a-assets>
+      <img id="my-k" src="https://cdn.glitch.global/6247a95f-183f-4589-bca8-2c11777ffcd8/steamedu.jpg?v=1692097675247  "/>
+    </a-assets>
+  
+    <!-- Using the asset management system. -->
+    <a-image src="#my-k"  width="10" height="2.2" position="-25.320 11.763 8.926    " rotation="0.019 -90.330 -0.357 "></a-image>
+        <a-assets>
+      <img id="my-b" src="https://cdn.glitch.global/6247a95f-183f-4589-bca8-2c11777ffcd8/Screenshot%20(86).png?v=1692098727515  "/>
+    </a-assets>
+  
+    <!-- Using the asset management system. -->
+    <a-image src="#my-b"  width="12" height="7" position="-25.044 2.510 -9.056    " rotation="0.019 -90.330 -0.357 "></a-image>
+        <a-assets>
+      <img id="my-d" src="https://cdn.glitch.global/6247a95f-183f-4589-bca8-2c11777ffcd8/Screenshot%20(87).png?v=1692099363724"/>
+    </a-assets>
+  
+    <!-- Using the asset management system. -->
+    <a-image src="#my-d"  width="8" height="15" position="-18.095 5.707 2.666" rotation="0 -180 0"></a-image>
+        
 </a-scene>
     
   </body>
