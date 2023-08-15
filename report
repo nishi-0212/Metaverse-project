@@ -135,7 +135,7 @@
     <a-image src="#my-i"  width="12" height="13" position="4.510 5.072 -8.435 " rotation="0.019 -90.330 -0.357 "></a-image>
   
         <a-assets>
-      <img id="my-L" src="https://cdn.glitch.global/6247a95f-183f-4589-bca8-2c11777ffcd8/LKO.png?v=1692094644085 "/>
+      <img id="my-L" src="https://cdn.glitch.global/6247a95f-183f-4589-bca8-2c11777ffcd8/89.png?v=1692096296062  "/>
     </a-assets>
   
     <!-- Using the asset management system. -->
