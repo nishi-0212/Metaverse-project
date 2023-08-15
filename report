@@ -17,7 +17,7 @@
   <a-video src="#penguin-sledding" width="16" height="9" position="4.632 5.296 0.108 " rotation="0 90 0"></a-video>
 
   <!-- Defining the URL inline. Not recommended but more comfortable for web developers. -->
-  <a-video src="airbending.mp4"></a-video>
+  <a-video src=" [object HTMLVideoElement]"></a-video>
         
         
         <!-- Ground -->
